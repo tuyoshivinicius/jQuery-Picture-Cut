@@ -177,6 +177,11 @@ $(function() {
         })
     }
 })(jQuery);
+/**********************************************************************************
+            PictureCut plugin para jQuery
+            Copyright (c) 2013 Tuyoshi Vinicius (tuyoshi_vinicius@hotmail.com))
+            Version: 1.1
+***********************************************************************************/
 (function($) {
     var methods = {
         clear: function(Options) {
