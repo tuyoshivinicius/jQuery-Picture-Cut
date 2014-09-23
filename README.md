@@ -1,0 +1,3 @@
+#Picture Cut#
+
+picture cut is a jquery plugin that handles images in a very friendly and simple way, with a beautiful interface based on bootstrap or jquery ui, has great features like ajax upload, drag image from explorer, image crop and others.
