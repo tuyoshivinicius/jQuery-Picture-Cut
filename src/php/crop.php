@@ -1,6 +1,6 @@
 <?php
 
-require_once('core\PictureCut.php');
+require_once('core/PictureCut.php');
 
 try {
 
