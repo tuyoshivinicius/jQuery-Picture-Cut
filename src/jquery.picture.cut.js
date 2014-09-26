@@ -324,6 +324,7 @@ $(function() {
                 var TuyoshiCrop = function(element, response) {
                     var response = response;
                     var MontarSelecaoRecorte = function(SelecaoRecorte, state) {
+                        var ElemSelectProporcao,ElemSelectOrientacao;
                         var Swidth = (response.currentWidth / 100) * 80;
                         var Sheight = (Swidth / 16) * 9;
                         SelecaoRecorte.css({
@@ -332,9 +333,9 @@ $(function() {
                             "left": (response.currentWidth - Swidth) / 2,
                             "top": (response.currentHeight - Sheight) / 2
                         });
-                        if (state == "create") {
-                            var ElemSelectProporcao = $("#JtuyoshiCrop #SelectProporcao");
-                            var ElemSelectOrientacao = $("#JtuyoshiCrop #SelectOrientacao");
+                        ElemSelectProporcao = $("#JtuyoshiCrop #SelectProporcao");
+                        ElemSelectOrientacao = $("#JtuyoshiCrop #SelectOrientacao");
+                        if (state == "create") {                            
                             if (Options.CropModes.widescreen || Options.CropModes.letterbox || Options.CropModes.free) {
                                 ElemSelectProporcao.show()
                             } else {
@@ -404,8 +405,9 @@ $(function() {
                                 "height": Sheight,
                                 "left": (response.currentWidth - Swidth) / 2,
                                 "top": (response.currentHeight - Sheight) / 2
-                            })
-                        }
+                            });                                                                            
+                        };
+                        ElemSelectProporcao.change();
                     };
                     var Redimencionar_Janela = function() {
                         if ((response.currentWidth + 80) > 410) {
