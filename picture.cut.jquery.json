@@ -1,0 +1,34 @@
+{
+    "name": "Picture Cut",
+    "title": "jQuery Picture Cut",
+    "description": "Picture cut is a jquery plugin that handles images in a very friendly and simple way, with a beautiful interface based on bootstrap or jquery ui, has great features like ajax upload, drag image from explorer, image crop and others.",
+    "keywords": [
+        "Image Crop",
+        "File Upload"
+    ],
+    "version": "1.1.2",
+    "author": {
+        "name": "Tuyoshi Vinicius",
+        "url": "tuyoshi.com.br"
+    },
+    "maintainers": [
+        {
+            "name": "Tuyoshi Vinicius",
+            "email": "tuyoshi_vinicius@hotmail.com",
+            "url": "http://tuyoshi.com.br"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "bugs": "https://github.com/TuyoshiVinicius/jQuery-Picture-Cut/issues",
+    "homepage": "https://github.com/TuyoshiVinicius/jQuery-Picture-Cut",
+    "docs": "http://picturecut.tuyoshi.com.br/docs/",
+    "download": "http://picturecut.tuyoshi.com.br",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
