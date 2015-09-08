@@ -11,11 +11,11 @@ http://picturecut.tuyoshi.com.br/docs
 
 The Picture jQuery is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
 
-##Coming soon...  PictureCut 2.0
+###Coming soon...  PictureCut 2.0
 
-###All the first version features
-###Rewriting the code, changes in the core for better performance
-###All the operations done from the client side
-###Totally responsive
-###Flip, rotate and crop image with canvas
+####All the first version features
+####Rewriting the code, changes in the core for better performance
+####All the operations done from the client side
+####Totally responsive
+####Flip, rotate and crop image with canvas
 
